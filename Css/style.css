@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&display=swap');
+    background-color: rgb(55, 155, 218);
+    width: 20vw;
+    height: 100vh;
+}
+.sidebar nav ul{
+    padding: 50px;
+}
+.sidebar nav ul li {
+    list-style: none;
+    font-size: 19px;
+    margin: 7px;
+    padding: 19px 0px 42px 0px;
+    font-weight: bolder;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    background: fixed;
+}
+.info{
+    /* background-color: blue; */
+    height: 70vh;
+    margin: 72px auto;
+    width: 67vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.great{
+    font-size: 49px;
+
+}
+.name{
+    font-size: 38px;    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+}
+.contenor{
+    display: flex;
+}
+.button button{
+    margin: 21px 23px 0px 0px;
+    padding: 10px;
+    border-radius: 26px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: teal;
+    font-weight: bold;
+cursor: pointer;
+}
+.button button:hover{
+    background-color:  aliceblue;
+    color: teal;
+}
+.devpic img{
+    height: 70vh;
+    width: 350px;
+    position: absolute;
+    right: 102px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&family=Source+Serif+Pro&display=swap');
+    width: 58vw;
+    height: 69vh;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav ul li a:hover{
+    color: black;
+}
+
