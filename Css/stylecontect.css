@@ -6,12 +6,20 @@
 .contectform{
     height: 100vh;
     width: 80vw;
-    /* background-color: crimson; */
+    background-color: #b0aec42e;
 
     
 }
-.form{
-  padding-left: 37px
+#form{
+  padding-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center; 
+  padding-right: 117px;
+  padding-left: 345px;
+  
+  
+
 }
 .contectform h1{
     @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&display=swap');
@@ -28,8 +36,8 @@
   
   .icons ul {
     position: absolute;
-    top: 90%;
-    left: 62%;
+    top: 95%;
+    left: 58%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -41,20 +49,18 @@
   }
   
   .icons ul li a {
-    position: relative;
-    width:60px;
-    height:60px;
-    display:block;
-    text-align:center;
-    margin:0 10px;
+    width: 38px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    margin: 0 12px;
     border-radius: 50%;
-    padding: 16px;
+    padding: 8px;
     box-sizing: border-box;
-    text-decoration:none;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-    /* background: linear-gradient(0deg, #ddd, #fff); */
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 30%);
     transition: .5s;
-    font-size: x-large;
+    font-size: 21px;
     
     
   }
@@ -125,8 +131,8 @@
     background-color: #ebeef4;
   }
 .icons h5{
-  font-family: emoji;
-  padding: 26px;
+  font-family: inherit;
+  padding: 10px;
 }
 .contectform form div{
 
@@ -136,13 +142,15 @@ display: flex;
 flex-direction: column;
 }
 .contectform form div input{
-  width: 36%;
+  width: 69%;
   height: 29px;
   border-radius: 20px;
 
 }
 textarea{
-  width: 36%;
+  width: 69%;
+  border-top-width: 4px;
+    border-bottom-width: 4px;
 }
 #emailHelp{
   padding: 19px 0px 0px;
@@ -159,4 +167,38 @@ textarea{
 }
 #form-check-label{
   margin-left: 11px;
+}
+#form-check{
+
+  display: block;
+  width: 411px;
+  height: 56px;
+  padding: 0px;
+}
+#form-check-input{
+  width: 35px;
+  height: 21px;
+}
+#btn1{
+  width: 128px;
+    height: 38px;
+    border-radius: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: rgb(226, 199, 129);
+    color: #000;
+    font-size: 17px;
+
+   
+}
+#btn1:hover{
+  background-color: #379bda;
+  color:white;
+}
+
+input{
+  text-align: center;
+}
+label{
+  font-size: 18px;
 }

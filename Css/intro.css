@@ -1,0 +1,130 @@
+#main{
+    width: 80vw;
+    height: 100vh;
+}
+#main::before{
+    background: url(/imagies/introBg.jpg) no-repeat center/cover;
+    /* background-color: rgb(138, 206, 150); */
+    content: " ";
+    position: absolute;
+    width: 80%;
+    height: 93%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 48px;
+    left: 20%;
+    
+    
+
+   
+}
+
+.about-size h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 49px;
+    padding-right: 70px;
+    padding-bottom: 18px;
+}
+.head{
+    background-color: whitesmoke;
+    font-size: 39px;
+    text-shadow: 0px 0px 7px rgb(55 155 218);
+    overflow: hidden;
+    border-right: .15em solid palevioletred;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    animation-iteration-count:infinite ;
+    animation-fill-mode: forwards;
+    padding-left: 447px;
+    padding-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0%;
+    margin-right: 0px;
+    width: 857.112;
+    height: 39px;
+    width: 20px;
+   
+    /* background-color: violet;
+    height: 50px;
+    animation-name: hDecor;
+    animation-duration: 5s;
+ 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+animation-direction: alternate; */
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 65% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to 
+    { border-color: transparent }
+    50% { border-color: orange }
+  }
+/* @keyframes hDecor {
+
+    0%{
+    width: 90px;
+    }
+    100%{
+    width: 600px;
+    }
+    } */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin: 3px;
+    /* background-color: violet; */
+}
+
+.about-size p{
+    align-items: center;
+    font-size: 20px;
+    padding-left: 23px;
+  
+     
+    
+    
+}
+.about-size{
+      background-image: linear-gradient(45deg, black, #6e5c7d00);
+    box-shadow: 0px 0px 0px 2px #fff9c4;
+     /* background-color:aquamarine; */
+     border-radius: 73px;
+    padding: 43px;
+    color:whitesmoke;
+    /* border: 2px solid rebeccapurple; */
+    height: 236px;
+    border: outset;
+    width: 338px;
+}
+table {
+    background-color: #e4c7e4d6;
+ }
+ .table{
+  
+    padding-left: 90px;
+    padding-top: 38px;
+    font-weight: bold;
+    font-size: 17px;
+    /* background-color: #e4c7e4d6; */
+
+   
+ }
+ th, td{
+    border:1px solid black;
+    padding: 20px;
+ }

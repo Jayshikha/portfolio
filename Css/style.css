@@ -2,9 +2,27 @@
     margin: 0;
     padding: 0;
 }
+#main{
+    /* background-color: coral; */
+    width: 80vw;
+    height: 100vh;
+}
+#indexMain::before{
+    /* background: url("/imagies/forntBg.jpg") no-repeat center/cover; */
+    background: url("/imagies/bgindex.jpg") no-repeat center/cover;
+    content: " ";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    left: 20%;
+}
 .sidebar{
     @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&display=swap');
-    background-color: rgb(55, 155, 218);
+    /* background-color: rgb(55, 155, 218); */
+    background-image: linear-gradient(#27279c, #ffffff1a);
     width: 20vw;
     height: 100vh;
 }
@@ -20,9 +38,10 @@
 }
 
 .main{
-    /* background-color: yellow; */
+ 
     width: 80vw;
     background: fixed;
+
 }
 .info{
     /* background-color: blue; */
@@ -35,8 +54,43 @@
 }
 .great{
     font-size: 49px;
+    width: 21ch;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    
+    /* font-family: monospace; */
+    white-space: nowrap;
+    border-right: 4px solid orange;
+    animation: printed-text 5s steps(21),
+               flashin-border .75s step-start infinite;
+               animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    text-shadow: 8px 0px 15px rgb(44 154 223);
+  }
+  
+  @keyframes flashin-border{
+    0%{
+      border-color: orange;
+    }
+    50%{
+      border-color: transparent;
+    }
+    100%{
+      border-color: orange;
+    }
+  }
+  
+  @keyframes printed-text{
+    from {
+      width: 0%;
+    }
+    to{
+        width: 32%;
+    }
+  }
+    
 
-}
+
 .name{
     font-size: 38px;    font-weight: bold;
 }
@@ -51,14 +105,14 @@
     padding: 10px;
     border-radius: 26px;
     font-size: 15px;
-    color: aliceblue;
-    background-color: teal;
+    color:black;
+    background-image: linear-gradient(#3333d7,white);
     font-weight: bold;
 cursor: pointer;
 }
 .button button:hover{
-    background-color:  aliceblue;
-    color: teal;
+   background-image: linear-gradient(#79c679,#c1c155);
+    color:black;
 }
 .devpic img{
     height: 70vh;
@@ -80,5 +134,13 @@ cursor: pointer;
 }
 .sidebar nav ul li a:hover{
     color: black;
+}
+img{
+
+    border-spacing: 1px;
+    border-style: solid;
+    border-color: honeydew;
+    box-shadow: 0px 0px 8px palegoldenrod;
+    border-right-width: thick;
 }
 
