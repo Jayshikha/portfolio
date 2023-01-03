@@ -1,18 +1,24 @@
 #main{
     width: 80vw;
     height: 100vh;
+    
 }
 #main::before{
-    background: url(/imagies/introBg.jpg) no-repeat center/cover;
+    background: url(../imagies/introBg.jpg) no-repeat center/cover;
     /* background-color: rgb(138, 206, 150); */
     content: " ";
     position: absolute;
-    width: 80%;
-    height: 93%;
+    width: 124vw;
+    display: flex;
+    height: 116vh;
     z-index: -1;
-    opacity: 0.5;
+    background-attachment: fixed;
+    opacity: 0.9;
     top: 48px;
-    left: 20%;
+    background-size: cover;
+    left: 0%;
+    /* background-size: 117vw; */
+    flex-wrap: wrap;
     
     
 
@@ -39,13 +45,12 @@
     blink-caret .5s step-end infinite;
     animation-iteration-count:infinite ;
     animation-fill-mode: forwards;
-    padding-left: 447px;
+    padding-left: 525px;
     padding-right: 0px;
     padding-top: 4px;
     padding-bottom: 4px;
     margin: 0%;
     margin-right: 0px;
-    width: 857.112;
     height: 39px;
     width: 20px;
    
@@ -60,7 +65,7 @@ animation-direction: alternate; */
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 65% }
+    to { width: 36% }
   }
   
   /* The typewriter cursor effect */
@@ -78,15 +83,20 @@ animation-direction: alternate; */
     width: 600px;
     }
     } */
+    .sidebar{
+        height: 124vh;
+    }
 
 .about {
     display: flex;
     flex-direction: row;
-    column-gap: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    column-gap: 32px;
+    padding-left: 19px;
+    /* padding-right: 35px; */
+    /* margin-left: 20em; */
     padding-top: 20px;
-    margin: 3px;
+    margin: 6px;
+    margin-left: 3em;
     /* background-color: violet; */
 }
 
@@ -100,16 +110,16 @@ animation-direction: alternate; */
     
 }
 .about-size{
-      background-image: linear-gradient(45deg, black, #6e5c7d00);
+    background-image: linear-gradient(45deg, black, #6e5c7d00);
     box-shadow: 0px 0px 0px 2px #fff9c4;
-     /* background-color:aquamarine; */
-     border-radius: 73px;
+    /* background-color: aquamarine; */
+    border-radius: 73px;
     padding: 43px;
-    color:whitesmoke;
+    color: whitesmoke;
     /* border: 2px solid rebeccapurple; */
     height: 236px;
     border: outset;
-    width: 338px;
+    width: 277px;
 }
 table {
     background-color: #e4c7e4d6;
@@ -128,3 +138,40 @@ table {
     border:1px solid black;
     padding: 20px;
  }
+ .main .ham{
+    font-size: 30px;
+    position: absolute;
+    top: 16px;
+    left: 5px;
+    cursor: pointer;
+
+}
+.main .ham .cross{
+    position: absolute;
+    left: 263px;
+
+}
+@media only screen and (max-width: 1399px) {
+    #main::before{
+        /* background: url(../imagies/introBg.jpg) no-repeat center/cover;
+        /* background-color: rgb(138, 206, 150); */
+        /* content: " "; 
+        position: absolute; */
+        width: 131vw;
+        /* display: flex; */
+        height: 49rem;
+        /* z-index: -1;
+        background-attachment: fixed;
+        opacity: 0.9; */
+        top: 48px;
+        /* background-size: cover; */
+        /* left: 0%; */
+        /* background-size: 117vw; */
+        /* flex-wrap: wrap; */
+        
+    }
+    
+.sidebar {
+    height: 52rem;
+}
+}

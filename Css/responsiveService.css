@@ -1,0 +1,19 @@
+#Smain::before{
+
+}
+#Smain{
+    width: 106rem;
+}
+.sidebar{
+    width: fit-content;
+    height: auto;
+
+}
+.flx {
+    padding-left: 5rem;
+}
+.contenor {
+    display: flex;
+    height: 146rem;
+
+}

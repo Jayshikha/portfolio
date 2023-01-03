@@ -1,0 +1,82 @@
+#indexMain::before {
+    /* background: url(/imagies/forntBg.jpg) no-repeat center/cover; */
+    background: url(/imagies/bgindex.jpg) no-repeat center/cover;
+    content: " ";
+    position: absolute;
+    width: 123vw;
+    height: 162vh;
+    z-index: -1;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0px;
+    left: 0%;
+    background-attachment: fixed;
+    background: aliceblue;
+}
+.sidebar{
+    width: fit-content;
+    height: 64rem;
+}
+
+.info {
+    /* background-color: blue; */
+    height: 70vh;
+    margin: 72px auto;
+    width: 67vw;
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    width: max-content;
+    margin-left: 82px;
+    flex-wrap: wrap;
+    flex-wrap: inherit;
+    margin-top:auto;
+}
+
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: revert;
+}
+.devpic img {
+    height: 66vh;
+    width: 333px;
+    position: absolute;
+    border-top-width: 1px;
+    top: 35em;
+    left: 20em;
+    bottom: 116px;
+}
+@media only screen and (max-width: 535px) {
+    #indexMain::before {
+  
+        background: url(/imagies/bgindex.jpg) no-repeat center/cover;
+        content: " ";
+        position: absolute;
+        width: 42em;
+        height: 94rem;
+        z-index: -1;
+        background-size: cover;
+        opacity: 0.5;
+        top: 0px;
+        left: 0%;
+        background-attachment: fixed;
+    
+    }
+    .sidebar {
+        width: fit-content;
+        height: 94rem;
+    }
+    .devpic img {
+        height: 49vh;
+        width: 310px;
+        position: absolute;
+        border-top-width: 1px;
+        top: 39em;
+        border-radius: 5em;
+        left: 21em;
+     
+    }
+  }

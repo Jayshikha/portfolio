@@ -1,204 +1,163 @@
-.main{
-    margin: 0;
-    padding: 0;
+.main {
+  width: 136vw;
+  height: 94rem;
+  /* background: fixed; */
+  background-image: repeating-linear-gradient(29deg, #00000033, #77303091 55px);
+background-size: cover;
+background-attachment: fixed;
 }
-
-.contectform{
-    height: 100vh;
-    width: 80vw;
-    background-color: #b0aec42e;
-
-    
-}
-#form{
-  padding-left: 37px;
+.contectform {
   display: flex;
   flex-direction: column;
-  justify-content:center; 
-  padding-right: 117px;
-  padding-left: 345px;
-  
-  
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contectform h1 {
+  font-size: 2rem;
 
 }
-.contectform h1{
-    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&display=swap');
-    text-align: center;
-    padding: 20px;
+#form{
+  margin-top: 3rem;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  margin-top: 20px;
 
 }
 
-/* .icons body {
-    margin:0;
-    padding:0;
-    background: #dedede;
-  } */
-  
-  .icons ul {
-    position: absolute;
-    top: 95%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
+.contectform input {
+  border: 10px black;
+  width: 33rem;
+  height: 2rem;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 0.8em;
 }
-  
-  .icons  ul li {
-    list-style: none;
-  }
-  
-  .icons ul li a {
-    width: 38px;
-    height: 38px;
-    display: block;
-    text-align: center;
-    margin: 0 12px;
-    border-radius: 50%;
-    padding: 8px;
-    box-sizing: border-box;
-    text-decoration: none;
-    box-shadow: 0 10px 15px rgb(0 0 0 / 30%);
-    transition: .5s;
-    font-size: 21px;
-    
-    
-  }
-  
- .icons ul li a:hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    text-decoration:none;
-  }
-  
-  .icons ul li a .fab {
-    width: 100%;
-    height:100%;
-    display:block;
-    /* background: linear-gradient(0deg, #fff, #ddd); */
-    border-radius: 50%;
-    line-height: calc(60px - 12px);
-    font-size:24px;
-    color: #262626;
-    transition: .5s;
-    font-weight: bold;
-    color: #ebeef4;
-   
-}
+#form-check-input{
 
+  width: 36px;
+  height: 27px;
+  padding-right: 0px;
+  margin-right: 0px;
 
- .icons ul li:nth-child(2) a:hover {
-
-    color: #071364;
-    background-color: #ffffff;
-
-  }
-  
- .icons ul li:nth-child(2) a{
-
-    background-color: #071364;
-    color: #ebeef4;
-  }
-  
- .icons ul li:nth-child(3) a {
-   
-    background-color: #067d1c;
-    color: #ebeef4;
-  }
- .icons ul li:nth-child(3) a:hover {
-   
-    background-color: #ffffff;
-    color: #067d1c;
-  }
-  
-  
-  .icons ul li:nth-child(4) a {
- 
-    background-color: #081043;
-    color: #ebeef4;
-  }
-  .icons ul li:nth-child(4) a:hover {
- 
-    color : #081043;
-   background-color: #ebeef4;
-  }
-  
- .icons ul li:nth-child(5) a{
-    background-color:  #ee2c7d;
-    color: #ebeef4;
-  }
- .icons ul li:nth-child(5) a:hover {
-   color :  #ee2c7d;
-    background-color: #ebeef4;
-  }
-.icons h5{
-  font-family: inherit;
-  padding: 10px;
-}
-.contectform form div{
-
-padding: 13px 0px;
-font-size: 20px;
-display: flex;
-flex-direction: column;
-}
-.contectform form div input{
-  width: 69%;
-  height: 29px;
-  border-radius: 20px;
-
-}
-textarea{
-  width: 69%;
-  border-top-width: 4px;
-    border-bottom-width: 4px;
-}
-#emailHelp{
-  padding: 19px 0px 0px;
-  font-size: 14px;
-  color: hotpink;
-}
-.form-check{
-  display: block;
-    padding: 12px 37px 24px 0px;
-}
-#check{
-  width: 23px;
-  height: 22px;
-}
-#form-check-label{
-  margin-left: 11px;
 }
 #form-check{
 
+  position:relative;
+  margin-top: 23px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.form-check-label{
+
+  margin-left: 52px;
+
+}
+#emailHelp{
+  font-size: initial;
+}
+.button button{
+  margin-top: 70px;
+    width: 9em;
+
+
+}
+.icons{
+  margin-top: 2em;
+  margin-right:5em;
+}
+.icons ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icons ul li a{
+  position: relative;
+  width: 45px;
+  height: 45px;
   display: block;
-  width: 411px;
-  height: 56px;
-  padding: 0px;
-}
-#form-check-input{
-  width: 35px;
-  height: 21px;
-}
-#btn1{
-  width: 128px;
-    height: 38px;
-    border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    background-color: rgb(226, 199, 129);
-    color: #000;
-    font-size: 17px;
-
-   
-}
-#btn1:hover{
-  background-color: #379bda;
-  color:white;
-}
-
-input{
   text-align: center;
+  margin: 0 12px;
+  border-radius: 50%;
+  padding: 11px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgb(92 59 59 / 79%);
+  transition: .5s;
+  font-size: 21px;
+  color: #ffffff ;
 }
-label{
-  font-size: 18px;
+.icons ul h5{
+
+  margin-left: 0em;
+  font-size: 0.9em;
 }
+.icons ul li{
+    list-style: none;
+}
+.icons ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+.icons ul li a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  /* background: linear-gradient(0deg, #fff, #ddd); */
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+  font-weight: bold;
+  color: #ebeef4;
+
+}
+.icons ul li:nth-child(2) a {
+
+
+  background-image: linear-gradient(88deg,#020857,#2693c4);
+
+}
+.icons ul li:nth-child(2) a:hover {
+  color: #000000;
+}
+.icons ul li:nth-child(3) a {
+
+  background-image: linear-gradient(87deg,#041d07,#23ff00);
+  color: #ebeef4;
+}
+.icons ul li:nth-child(3) a:hover {
+  color: #000000;
+}
+
+
+.icons ul li:nth-child(4) a {
+
+  background-image: linear-gradient(78deg,#121269,#5f0f7adb);
+  color: #ebeef4;
+}
+.icons ul li:nth-child(4) a:hover {
+  color: #000000;
+}
+
+.icons ul li:nth-child(5) a{
+  background-image: linear-gradient(45deg,#930909,#c82aa9);
+  color: #ebeef4;
+}
+.icons ul li:nth-child(5) a:hover {
+  color: #000000;
+}
+
+#contectid{
+  /* height: 90.5em; */
+  height: auto;
+}
+@media only screen and (max-width: 600px) {#Scontect{
+  height: 94rem;
+}}

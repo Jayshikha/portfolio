@@ -4,16 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=devi
+    
+    ce-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/stylecontect.css">
+    <link rel="stylesheet" href="Css/responsivIndex.css">
+    <!-- <link rel="stylesheet" href="Css/responsivContect.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 </head>
 <body>
     <div class="contenor">
-    <div class="sidebar">
+    <div class="sidebar sideBarGo" id="Scontect">
         <nav>
             <ul>
               <li><a href="index.html">HOME</a> </li>
@@ -25,8 +29,14 @@
             </ul>
             </nav>
     </div>
-    <main>
-    <div class="main">
+    <div class="main" >
+
+      
+             <div class="ham">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+        <i class="fa-sharp fa-solid fa-square-xmark cross"></i>
+    </div>
+    <!-- <main> -->
         <div class="contectform">
             <h1>Contect me for work / Genral Enquires</h1>
             <form id="form">
@@ -41,22 +51,21 @@
                 </div>
 
 
-                <div class="message">
+                <div class="message form-group">
                    <div class="messagelabel"> <label for="sendmessage">Send a message</label></div>
-                   <textarea name="sendmessage" id="sendmessage"  rows="10"cols="30">Write your message here</textarea>
+                   <textarea name="sendmessage" id="sendmessage"  rows="10"cols="20">Write your message here</textarea>
                 </div>
                 <div id="form-check">
                   <input type="checkbox" id="form-check-input" id="Check">
                   <label class="form-check-label" for="exampleCheck1">I want you to connect with you </label>
                 </div>
-                <div class="btn">
-                  <button type="submit" class="btn btn-primary" id="btn1">Submit</button>
+                <div class="button">
+                  <button type="submit">Send</button>
                 </div>
                 </form>
-        </div>
-    </div>
-  </main>
-    <footer>
+    
+
+  
     <div class="icons">
     <ul>
       <h5>Can Also Contect Me With</h5>
@@ -66,7 +75,10 @@
       <li><a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram " ></i></a></li>
     </ul>
 </div>
-</footer>
+</div>
+</div>
+
       </div>
-</body>
+      <script src="JS/front.js"></script>      
+    </body>
 </html>

@@ -1,0 +1,52 @@
+#main {
+    width: 80vw;
+    height: 100vh;
+}
+#main::before {
+    width: 98rem;
+    height: 169rem;
+    
+}
+.sidebar {
+    width: fit-content;
+    height: 172rem;
+}
+.about {
+   display: block;
+   flex-wrap: wrap;
+   font-size: 1.2rem;
+
+}
+.table {
+    position: absolute;
+    left: 47%;
+}
+table {
+    width: 50em;
+    height: 66rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+.head{
+    font-size: 2em;
+    padding-left: 7em;
+}
+.about-size {
+    
+    height: 22rem;
+    width: 41em;
+    margin: 3em;
+    text-align: justify;
+}
+.about-size h2 {   
+    font-size: 2em;
+}
+.about {
+    font-size: 1.2rem;
+}
+.about-size p {
+    align-items: center;
+    font-size: 1.3em;
+    padding-left: 23px;
+}

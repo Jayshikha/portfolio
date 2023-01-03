@@ -1,42 +1,56 @@
 <!-- # ##############Creating a Website for making a Personal Portfolio Website ########################### -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <link rel="stylesheet" href="Css/style.css">
- 
+    <!-- <link rel="stylesheet" href="Css/responsivIndex.css"> -->
+    <link rel="stylesheet" media="screen and (max-width:1490px  " href="css/responsivIndex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   
 </head>
+
 <body class="indexBody">
-    <div class="contenor">
-    <div class="sidebar">
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a> </li>
-                <li><a href="intro.html"  >MY INTRODUCTION</a> </li>
-                <li><a href="service.html" >SKILLS</a> </li>
-                <li><a href="contect.html" >CONTECT ME </a> </li>
-                <li><a href="cv.html" >CV</a> </li>
-            
-            </ul>
+    <div class="contenor" id="sde">
+        <div class="sidebar sideBarGo">
+            <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a> </li>
+                        <li><a href="intro.html">MY INTRODUCTION</a> </li>
+                        <li><a href="service.html">SKILLS</a> </li>
+                        <li><a href="contect.html">CONTECT ME </a> </li>
+                        <li><a href="cv.html">CV</a> </li>
+
+                    </ul>
             </nav>
-    </div>
-    <div class="main" id="indexMain">
-   <div class="info">
-    <div class="content">
-        <div class="great">Hello I Am </div>
-        <div class="name"> Jayshikha Namdev</div>
-        <div class="about"> Front end web devloper , <br>  know about the coding langauges as well and many more... </div>
-        <div class="button">
-            <a  href="/imagies/ page report.docx"><button>Download CV</button></a> 
-          <a href="mailto:njayshiikha@gmail.com" target="_blank"> <button >Hire Me</button></a> 
         </div>
-    </div>
-    <div class="devpic"><img src="imagies/devpic.jpg" alt="Profile Picture"></div>
-   </div>
-    </div>
-      </div>
+        <div class="main" id="indexMain">
+         <div class="ham">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-sharp fa-solid fa-square-xmark cross"></i>
+        </div>
+            <div class="info">
+                <div class="content">
+                    <div class="great">Hello I Am </div>
+                    <div class="name"> Jayshikha Namdev</div>
+                    <div class="about"> Front end web devloper , <br> know about the coding langauges as well and many
+                        more... </div>
+                    <div class="button">
+                        <a href="imagies/resumeJayshikha.docx"><i
+                                class="fa-solid fa-arrow-down-to-line"><button>Download CV</button></i></a>
+                        <a href="mailto:njayshiikha@gmail.com" target="_blank"> <button>Hire Me</button></a>
+                    </div>
+                </div>
+                <div class="devpic"><img src="imagies/devpic.jpg" alt="Profile Picture"></div>
+            </div>
+        </div>
+    
+</div>
+<script src="JS/front.js"></script>
 </body>
+
 </html>
