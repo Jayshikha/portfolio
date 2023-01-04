@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main {
   width: 136vw;
   height: 94rem;
@@ -161,3 +162,167 @@ background-attachment: fixed;
 @media only screen and (max-width: 600px) {#Scontect{
   height: 94rem;
 }}
+=======
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+.contectform{
+    height: 100vh;
+    width: 80vw;
+    /* background-color: crimson; */
+
+    
+}
+.form{
+  padding-left: 37px
+}
+.contectform h1{
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Roboto+Condensed:wght@700&display=swap');
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* .icons body {
+    margin:0;
+    padding:0;
+    background: #dedede;
+  } */
+  
+  .icons ul {
+    position: absolute;
+    top: 90%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+  .icons  ul li {
+    list-style: none;
+  }
+  
+  .icons ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 16px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    /* background: linear-gradient(0deg, #ddd, #fff); */
+    transition: .5s;
+    font-size: x-large;
+    
+    
+  }
+  
+ .icons ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  .icons ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    /* background: linear-gradient(0deg, #fff, #ddd); */
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+    font-weight: bold;
+    color: #ebeef4;
+   
+}
+
+
+ .icons ul li:nth-child(2) a:hover {
+
+    color: #071364;
+    background-color: #ffffff;
+
+  }
+  
+ .icons ul li:nth-child(2) a{
+
+    background-color: #071364;
+    color: #ebeef4;
+  }
+  
+ .icons ul li:nth-child(3) a {
+   
+    background-color: #067d1c;
+    color: #ebeef4;
+  }
+ .icons ul li:nth-child(3) a:hover {
+   
+    background-color: #ffffff;
+    color: #067d1c;
+  }
+  
+  
+  .icons ul li:nth-child(4) a {
+ 
+    background-color: #081043;
+    color: #ebeef4;
+  }
+  .icons ul li:nth-child(4) a:hover {
+ 
+    color : #081043;
+   background-color: #ebeef4;
+  }
+  
+ .icons ul li:nth-child(5) a{
+    background-color:  #ee2c7d;
+    color: #ebeef4;
+  }
+ .icons ul li:nth-child(5) a:hover {
+   color :  #ee2c7d;
+    background-color: #ebeef4;
+  }
+.icons h5{
+  font-family: emoji;
+  padding: 26px;
+}
+.contectform form div{
+
+padding: 13px 0px;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+}
+.contectform form div input{
+  width: 36%;
+  height: 29px;
+  border-radius: 20px;
+
+}
+textarea{
+  width: 36%;
+}
+#emailHelp{
+  padding: 19px 0px 0px;
+  font-size: 14px;
+  color: hotpink;
+}
+.form-check{
+  display: block;
+    padding: 12px 37px 24px 0px;
+}
+#check{
+  width: 23px;
+  height: 22px;
+}
+#form-check-label{
+  margin-left: 11px;
+}
+>>>>>>> bd6f5782ddd065af8d3e12a75a0b472913d34c9b
